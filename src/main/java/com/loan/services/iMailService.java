@@ -1,7 +1,5 @@
 package com.loan.services;
 
 public interface iMailService {
-	
-	public void sendMail(String email);
-
+    void sendMail(String email, double loanAmount, int loanDuration, double emi, String customerName, float salary);
 }
