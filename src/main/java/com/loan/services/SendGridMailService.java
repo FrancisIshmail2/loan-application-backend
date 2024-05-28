@@ -44,5 +44,4 @@ public class SendGridMailService implements iMailService {
             ex.printStackTrace();
         }
     }
-
 }
