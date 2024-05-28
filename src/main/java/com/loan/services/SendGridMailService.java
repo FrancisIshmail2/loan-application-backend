@@ -25,7 +25,7 @@ public class SendGridMailService implements iMailService {
                 "Salary: " + salary + "\n\n" +
                 "Thank you for choosing us for your financial needs.\n\n" +
                 "Best Regards,\nYour Loan Team");
-/*
+
         Mail mail = new Mail(from, subject, to, content);
 
         SendGrid sg = new SendGrid(sendGridApiKey);
@@ -44,5 +44,5 @@ public class SendGridMailService implements iMailService {
             ex.printStackTrace();
         }
     }
-*/
+
 }
